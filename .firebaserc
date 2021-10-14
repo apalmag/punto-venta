@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "punto-de-venta-web"
+  },
+  "targets": {
+    "punto-de-venta-web": {
+      "hosting": {
+        "punto-venta-web": [
+          "punto-de-venta-web"
+        ]
+      }
+    }
+  }
+}

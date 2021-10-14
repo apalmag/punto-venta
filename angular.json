@@ -105,6 +105,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "punto-venta-web:build:production",
+            "firebaseProject": "punto-de-venta-web",
+            "firebaseHostingSite": "punto-de-venta-web"
+          }
         }
       }
     }
